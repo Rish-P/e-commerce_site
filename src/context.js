@@ -67,6 +67,8 @@ export default class ProductProvider extends Component {
             this.state.cartTotal=0
         }else{
             this.state.cartSubTotal-=count*price;
+
+
             this.state.cartTax-=(total-price)
             this.state.cartTotal-=total
         }
